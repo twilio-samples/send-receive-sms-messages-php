@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD013 -->
 
-# Learn how to send and receive SMS with Twilio with this code sample
+# Send & receive SMS messages
 
 Learn how to send and receive SMS with Twilio with this code sample.
 In just a few lines of code, you can see your phone light up sending and receiving SMS with Twilio.
@@ -49,7 +49,7 @@ Before you can receive an SMS, you need to complete a few further steps.
 
 1. Go to the [Active numbers][active_numbers] page in the Twilio Console.
 1. Click your Twilio phone number.
-1. Go to the **Configure** tab and find the **Voice Configuration** section.
+1. Go to the **Configure** tab and find the **Messaging Configuration** section.
 1. In the **A call comes in** row, select the **Webhook** option.
 1. Paste your ngrok **Forwarding** URL in the **URL** field followed by "/receive/".
    For example, if your ngrok console shows Forwarding "<https://1aaa-123-45-678-910.ngrok-free.app>", enter "<https://1aaa-123-45-678-910.ngrok-free.app/receive/>".
