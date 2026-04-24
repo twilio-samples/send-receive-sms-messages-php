@@ -1,0 +1,29 @@
+{
+    "name": "settermjd/send-receive-sms-messages",
+    "description": "Learn how to send and receive SMS with Twilio with this code sample.",
+    "version": "0.1.1",
+    "type": "project",
+    "keywords": [
+        "SMS",
+        "Twilio"
+    ],
+    "homepage": "https://github.com/settermjd/send-receive-sms-messages",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/settermjd/send-receive-sms-messages/new/issues"
+    },
+    "require": {
+        "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
+        "php-di/slim-bridge": "^3.4",
+        "slim/psr7": "^1.8",
+        "slim/slim": "^4.15",
+        "twilio/sdk": "^8.11",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "scripts": {
+        "serve": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -S 0.0.0.0:8080 -t public/"
+        ]
+    }
+}
