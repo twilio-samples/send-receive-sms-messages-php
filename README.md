@@ -5,6 +5,13 @@
 Learn how to send and receive SMS with Twilio with this code sample.
 In just a few lines of code, you can see your phone light up sending and receiving SMS with Twilio.
 
+## Application Overview
+
+![A flow diagram showing how send and receive SMS functionality works](./docs/images/flow-diagram.png)
+<small>The [SMS icon was created by Freepik on Flaticon](https://www.flaticon.com/free-icons/sms).</small>
+
+The flow diagram above provides a basic overview of how the two aspects of the application work.
+
 ## Prerequisites
 
 To run the app locally, you need the following:
@@ -65,9 +72,28 @@ Before you can receive an SMS, you need to complete a few further steps.
 1. With the PHP server and ngrok running, send an SMS to your Twilio phone number, containing whatever message you like.
    If you want a response, try sending "never gonna" as the message.
 
+## Contributing
+
+If you want to contribute to the project, whether you have found issues with it or just want to improve it, here's how:
+
+- [Issues][issues]: ask questions and submit your feature requests, bug reports, etc
+- [Pull requests][prs]: send your improvements
+
+## License
+
+[MIT][license]
+
+## Disclaimer
+
+No warranty expressed or implied.
+Software is as is.
+
 [active_numbers]: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
 [composer]: https://getcomposer.org
 [e164_format]: https://www.twilio.com/docs/glossary/what-e164
+[issues]: https://github.com/twilio-samples/send-receive-sms-messages-php/issues
+[prs]: https://github.com/twilio-samples/send-receive-sms-messages-php/pulls
+[license]: http://www.opensource.org/licenses/mit-license.html
 [ngrok]: https://ngrok.com/
 [twilio_console]: https://console.twilio.com
 [twilio_signup]: https://www.twilio.com/try-twilio
