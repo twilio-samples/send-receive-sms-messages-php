@@ -72,9 +72,28 @@ Before you can receive an SMS, you need to complete a few further steps.
 1. With the PHP server and ngrok running, send an SMS to your Twilio phone number, containing whatever message you like.
    If you want a response, try sending "never gonna" as the message.
 
+## Contributing
+
+If you want to contribute to the project, whether you have found issues with it or just want to improve it, here's how:
+
+- [Issues][issues]: ask questions and submit your feature requests, bug reports, etc
+- [Pull requests][prs]: send your improvements
+
+## License
+
+[MIT][license]
+
+## Disclaimer
+
+No warranty expressed or implied.
+Software is as is.
+
 [active_numbers]: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
 [composer]: https://getcomposer.org
 [e164_format]: https://www.twilio.com/docs/glossary/what-e164
+[issues]: https://github.com/twilio-samples/send-receive-sms-messages-php/issues
+[prs]: https://github.com/twilio-samples/send-receive-sms-messages-php/pulls
+[license]: http://www.opensource.org/licenses/mit-license.html
 [ngrok]: https://ngrok.com/
 [twilio_console]: https://console.twilio.com
 [twilio_signup]: https://www.twilio.com/try-twilio
