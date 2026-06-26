@@ -5,6 +5,13 @@
 Learn how to send and receive SMS with Twilio with this code sample.
 In just a few lines of code, you can see your phone light up sending and receiving SMS with Twilio.
 
+## Application Overview
+
+![A flow diagram showing how send and receive SMS functionality works](./docs/images/flow-diagram.png)
+<small>The [SMS icon was created by Freepik on Flaticon](https://www.flaticon.com/free-icons/sms).</small>
+
+The flow diagram above provides a basic overview of how the two aspects of the application work.
+
 ## Prerequisites
 
 To run the app locally, you need the following:
